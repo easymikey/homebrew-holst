@@ -1,30 +1,30 @@
 class HolstCli < Formula
   desc "Command line for Holst whiteboards"
   homepage "https://github.com/easymikey/holst-rs"
-  version "0.2.0"
+  version "0.3.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/easymikey/holst-rs/releases/download/v0.2.0/holst-aarch64-apple-darwin.tar.gz"
-      sha256 "ad87009fcb5773d862ddc12ba34a1d5b55a1addd06d065d123863f1e8699903b"
+      url "https://github.com/easymikey/holst-rs/releases/download/v0.3.0/holst-cli-aarch64-apple-darwin.tar.gz"
+      sha256 "c2373d82957f9c5caf430447cc3d929d750e4cfcdf7ba97e4462fe3ee0df44aa"
     end
 
     on_intel do
-      url "https://github.com/easymikey/holst-rs/releases/download/v0.2.0/holst-x86_64-apple-darwin.tar.gz"
-      sha256 "74da0354ddee23d462e6a85157a452bb75727007a015c39647e8293910770e94"
+      url "https://github.com/easymikey/holst-rs/releases/download/v0.3.0/holst-cli-x86_64-apple-darwin.tar.gz"
+      sha256 "003ba00ba4c355c8d67ef2cbd747de19028f76dfb1df65facffd8ebc393db28d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/easymikey/holst-rs/releases/download/v0.2.0/holst-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "46a16592032a3cbd013f3f131a30ce4b6893d5e0d0fc2abce9a58dc565661dd2"
+      url "https://github.com/easymikey/holst-rs/releases/download/v0.3.0/holst-cli-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "88e6fc808af9e88f515ee2caea49ea2ab267c52b7159d51d12db0a09cdf2f629"
     end
 
     on_intel do
-      url "https://github.com/easymikey/holst-rs/releases/download/v0.2.0/holst-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fda0712b4809687fcd299cf5fd52663eb1eec386d12f42f3d4dd4819c6a7c7a8"
+      url "https://github.com/easymikey/holst-rs/releases/download/v0.3.0/holst-cli-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "8e1a9a6e1bd740e3cecb61c82f7fa77bad71f79edb755b50ce3495e018813292"
     end
   end
 
